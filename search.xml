@@ -178,24 +178,6 @@
       </tags>
   </entry>
   <entry>
-    <title>LearningHowToLearn</title>
-    <url>/%5Bobject%20Object%5D/2022/11/20/LearningHowToLearnundefined/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Efficiency-learning"><a href="#Efficiency-learning" class="headerlink" title="Efficiency learning"></a>Efficiency learning</h2><p>在保证学习状态的情况下进行学习，学习效率会更高<br><del>连续看三集的话只能会想起这句..下次需要边看边记了</del></p>
-]]></content>
-      <tags>
-        <tag>Note</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown note</title>
-    <url>/%5Bobject%20Object%5D/2021/11/13/Markdownundefined/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="User-snippets’-command"><a href="#User-snippets’-command" class="headerlink" title="User snippets’ command"></a>User snippets’ command</h2><p><a href="https://chinese.freecodecamp.org/news/definitive-guide-to-snippets-visual-studio-code/">VS Code 代码片段</a></p>
-]]></content>
-      <tags>
-        <tag>Note</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Neovim note</title>
     <url>/%5Bobject%20Object%5D/2023/05/02/Neovimundefined/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Tutorials"><a href="#Tutorials" class="headerlink" title="Tutorials"></a>Tutorials</h2><ul>
@@ -539,6 +521,24 @@ $XDG_CONFIG_HOME      $XDG_CONFIG_HOME/nvim/init.vim    (or init.lua)
         <tag>Note</tag>
         <tag>Neovim</tag>
         <tag>Tutorial</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LearningHowToLearn</title>
+    <url>/%5Bobject%20Object%5D/2022/11/20/LearningHowToLearnundefined/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Efficiency-learning"><a href="#Efficiency-learning" class="headerlink" title="Efficiency learning"></a>Efficiency learning</h2><p>在保证学习状态的情况下进行学习，学习效率会更高<br><del>连续看三集的话只能会想起这句..下次需要边看边记了</del></p>
+]]></content>
+      <tags>
+        <tag>Note</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown note</title>
+    <url>/%5Bobject%20Object%5D/2021/11/13/Markdownundefined/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="User-snippets’-command"><a href="#User-snippets’-command" class="headerlink" title="User snippets’ command"></a>User snippets’ command</h2><p><a href="https://chinese.freecodecamp.org/news/definitive-guide-to-snippets-visual-studio-code/">VS Code 代码片段</a></p>
+]]></content>
+      <tags>
+        <tag>Note</tag>
       </tags>
   </entry>
   <entry>
