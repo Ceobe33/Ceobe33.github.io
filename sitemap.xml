@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/tags/index.html</loc>
+    <loc>https://ceobe33.github.io/project/link/index.html</loc>
     
     <lastmod>2026-08-20</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/link/index.html</loc>
+    <loc>https://ceobe33.github.io/project/tags/index.html</loc>
     
     <lastmod>2026-08-20</lastmod>
     
@@ -185,6 +185,13 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/tags/WSL-Issue/</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/tags/DOSBox/</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -193,13 +200,6 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/tags/Construction/</loc>
-    <lastmod>2026-08-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/tags/WSL-Issue/</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
