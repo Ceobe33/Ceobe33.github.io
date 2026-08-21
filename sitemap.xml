@@ -29,15 +29,6 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/categories/index.html</loc>
-    
-    <lastmod>2026-08-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://ceobe33.github.io/project/[object%20Object]/2026/03/15/Resolved-iostream-not-found-with-clangdundefined/</loc>
     
     <lastmod>2026-08-21</lastmod>
@@ -74,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/about/index.html</loc>
+    <loc>https://ceobe33.github.io/project/categories/index.html</loc>
     
     <lastmod>2026-08-21</lastmod>
     
@@ -83,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://ceobe33.github.io/project/[object%20Object]/2023/05/02/Neovimundefined/</loc>
+    <loc>https://ceobe33.github.io/project/about/index.html</loc>
     
     <lastmod>2026-08-21</lastmod>
     
@@ -111,6 +102,15 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/[object%20Object]/2021/11/12/Markdownundefined/</loc>
+    
+    <lastmod>2026-08-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ceobe33.github.io/project/[object%20Object]/2023/05/02/Neovimundefined/</loc>
     
     <lastmod>2026-08-21</lastmod>
     
@@ -185,6 +185,13 @@
   </url>
   
   <url>
+    <loc>https://ceobe33.github.io/project/tags/WSL-Issue/</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://ceobe33.github.io/project/tags/DOSBox/</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -193,13 +200,6 @@
   
   <url>
     <loc>https://ceobe33.github.io/project/tags/Construction/</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ceobe33.github.io/project/tags/WSL-Issue/</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

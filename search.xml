@@ -150,6 +150,25 @@
       </tags>
   </entry>
   <entry>
+    <title>Conquer pyenv install issue _ssl lib missing</title>
+    <url>/%5Bobject%20Object%5D/2026/03/14/Conquer-pyenv-install-issue-ssl-missingundefined/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Issue-occur"><a href="#Issue-occur" class="headerlink" title="Issue occur"></a>Issue occur</h2><p>wsl<br><img src="/%5Bobject%20Object%5D/2026/03/14/Conquer-pyenv-install-issue-ssl-missingundefined/error.png" alt="error"></p>
+<p>loop up pyenv wiki:<a href="https://github.com/pyenv/pyenv/wiki/Common-build-problems#error-the-python-ssl-extension-was-not-compiled-missing-the-openssl-lib">ERROR: The Python ssl extension was not compiled. Missing the OpenSSL lib?</a></p>
+<h2 id="Installing-OpenSSL"><a href="#Installing-OpenSSL" class="headerlink" title="Installing OpenSSL"></a>Installing OpenSSL</h2><p><a href="https://help.dreamhost.com/hc/en-us/articles/360001435926-Installing-OpenSSL-locally-under-your-username">Installing OpenSSL locally under your username</a><br>try <code>pyenv install 3.10</code> again</p>
+<p>failure!</p>
+<h3 id="Clear-appended-path-from-windows-maybe-the-path-ambitious"><a href="#Clear-appended-path-from-windows-maybe-the-path-ambitious" class="headerlink" title="Clear appended path from windows:maybe the path ambitious:"></a>Clear appended path from windows:maybe the path ambitious:</h3><p><a href="https://stackoverflow.com/questions/51336147/how-to-remove-the-win10s-path-from-wsl">How to remove the Win10’s PATH from WSL</a></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># add this two line below to /etc/wsl.conf</span></span><br><span class="line">[interop]</span><br><span class="line">appendWindowsPath = <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># in cmd, to restart wsl and apply that config</span></span><br><span class="line">wsl.exe --shutdown</span><br></pre></td></tr></table></figure>
+
+<p>try <code>pyenv install 3.10</code><br><img src="/%5Bobject%20Object%5D/2026/03/14/Conquer-pyenv-install-issue-ssl-missingundefined/fixed.png" alt="install succeed"></p>
+<h2 id="Another-ssl"><a href="#Another-ssl" class="headerlink" title="Another ssl"></a>Another ssl</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get <span class="built_in">local</span> issuer certifi</span><br><span class="line">cate (_ssl.c:1010)</span><br></pre></td></tr></table></figure>
+
+<p>try <code>pip install pip-system-certs</code></p>
+]]></content>
+      <tags>
+        <tag>WSL, Issue</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>DOSBoxNote</title>
     <url>/%5Bobject%20Object%5D/2022/12/26/DOSBoxNoteundefined/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Construction"><a href="#Construction" class="headerlink" title="Construction"></a>Construction</h2><p><a href="https://youareaaron0.lanzoub.com/iVj4t00h3g7e">DOSBox software download link</a></p>
@@ -185,25 +204,6 @@
 ]]></content>
       <tags>
         <tag>Note</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Conquer pyenv install issue _ssl lib missing</title>
-    <url>/%5Bobject%20Object%5D/2026/03/14/Conquer-pyenv-install-issue-ssl-missingundefined/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Issue-occur"><a href="#Issue-occur" class="headerlink" title="Issue occur"></a>Issue occur</h2><p>wsl<br><img src="/%5Bobject%20Object%5D/2026/03/14/Conquer-pyenv-install-issue-ssl-missingundefined/error.png" alt="error"></p>
-<p>loop up pyenv wiki:<a href="https://github.com/pyenv/pyenv/wiki/Common-build-problems#error-the-python-ssl-extension-was-not-compiled-missing-the-openssl-lib">ERROR: The Python ssl extension was not compiled. Missing the OpenSSL lib?</a></p>
-<h2 id="Installing-OpenSSL"><a href="#Installing-OpenSSL" class="headerlink" title="Installing OpenSSL"></a>Installing OpenSSL</h2><p><a href="https://help.dreamhost.com/hc/en-us/articles/360001435926-Installing-OpenSSL-locally-under-your-username">Installing OpenSSL locally under your username</a><br>try <code>pyenv install 3.10</code> again</p>
-<p>failure!</p>
-<h3 id="Clear-appended-path-from-windows-maybe-the-path-ambitious"><a href="#Clear-appended-path-from-windows-maybe-the-path-ambitious" class="headerlink" title="Clear appended path from windows:maybe the path ambitious:"></a>Clear appended path from windows:maybe the path ambitious:</h3><p><a href="https://stackoverflow.com/questions/51336147/how-to-remove-the-win10s-path-from-wsl">How to remove the Win10’s PATH from WSL</a></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># add this two line below to /etc/wsl.conf</span></span><br><span class="line">[interop]</span><br><span class="line">appendWindowsPath = <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># in cmd, to restart wsl and apply that config</span></span><br><span class="line">wsl.exe --shutdown</span><br></pre></td></tr></table></figure>
-
-<p>try <code>pyenv install 3.10</code><br><img src="/%5Bobject%20Object%5D/2026/03/14/Conquer-pyenv-install-issue-ssl-missingundefined/fixed.png" alt="install succeed"></p>
-<h2 id="Another-ssl"><a href="#Another-ssl" class="headerlink" title="Another ssl"></a>Another ssl</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get <span class="built_in">local</span> issuer certifi</span><br><span class="line">cate (_ssl.c:1010)</span><br></pre></td></tr></table></figure>
-
-<p>try <code>pip install pip-system-certs</code></p>
-]]></content>
-      <tags>
-        <tag>WSL, Issue</tag>
       </tags>
   </entry>
   <entry>
