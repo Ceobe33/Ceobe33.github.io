@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>About Git</title>
-    <url>/%5Bobject%20Object%5D/2022/10/02/AboutGitundefined/</url>
+    <url>/%5Bobject%20Object%5D/2022/10/01/AboutGitundefined/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Issue"><a href="#Issue" class="headerlink" title="Issue"></a>Issue</h2><h3 id="Authentication"><a href="#Authentication" class="headerlink" title="Authentication"></a>Authentication</h3><ul>
 <li>-<em>generate ssh key</em>*<br><code>$ ssh-keygen -t ed25519</code></li>
 </ul>
@@ -100,7 +100,7 @@
   </entry>
   <entry>
     <title>The Step of Blog Construction</title>
-    <url>/%5Bobject%20Object%5D/2022/10/11/BlogConstructionundefined/</url>
+    <url>/%5Bobject%20Object%5D/2022/10/10/BlogConstructionundefined/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><p><a href="https://app.netlify.com/sites/sprightly-croquembouche-951681/deploys"><img src="https://api.netlify.com/api/v1/badges/6417f999-72a6-4ebd-994d-0d5118d42bb3/deploy-status" alt="Netlify Status"></a>  </p>
 <h3 id="Using-Blog"><a href="#Using-Blog" class="headerlink" title="Using Blog"></a>Using Blog</h3><p>修改根配置文件的这个参数，：使用资源文件的文件展示<br>over config file change <code>post_asset_floder: true</code> parameter, then can use local path to config cover (maybe all the photo&#x2F;img?)</p>
 <p><a href="https://hexo.io/zh-cn/docs/writing.html">official document</a><br>generate new blog file:<br><code>hexo new &lt;filename&gt;</code></p>
@@ -150,27 +150,8 @@
       </tags>
   </entry>
   <entry>
-    <title>Conquer pyenv install issue _ssl lib missing</title>
-    <url>/%5Bobject%20Object%5D/2026/03/15/Conquer-pyenv-install-issue-ssl-missingundefined/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Issue-occur"><a href="#Issue-occur" class="headerlink" title="Issue occur"></a>Issue occur</h2><p>wsl<br><img src="/%5Bobject%20Object%5D/2026/03/15/Conquer-pyenv-install-issue-ssl-missingundefined/error.png" alt="error"></p>
-<p>loop up pyenv wiki:<a href="https://github.com/pyenv/pyenv/wiki/Common-build-problems#error-the-python-ssl-extension-was-not-compiled-missing-the-openssl-lib">ERROR: The Python ssl extension was not compiled. Missing the OpenSSL lib?</a></p>
-<h2 id="Installing-OpenSSL"><a href="#Installing-OpenSSL" class="headerlink" title="Installing OpenSSL"></a>Installing OpenSSL</h2><p><a href="https://help.dreamhost.com/hc/en-us/articles/360001435926-Installing-OpenSSL-locally-under-your-username">Installing OpenSSL locally under your username</a><br>try <code>pyenv install 3.10</code> again</p>
-<p>failure!</p>
-<h3 id="Clear-appended-path-from-windows-maybe-the-path-ambitious"><a href="#Clear-appended-path-from-windows-maybe-the-path-ambitious" class="headerlink" title="Clear appended path from windows:maybe the path ambitious:"></a>Clear appended path from windows:maybe the path ambitious:</h3><p><a href="https://stackoverflow.com/questions/51336147/how-to-remove-the-win10s-path-from-wsl">How to remove the Win10’s PATH from WSL</a></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># add this two line below to /etc/wsl.conf</span></span><br><span class="line">[interop]</span><br><span class="line">appendWindowsPath = <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># in cmd, to restart wsl and apply that config</span></span><br><span class="line">wsl.exe --shutdown</span><br></pre></td></tr></table></figure>
-
-<p>try <code>pyenv install 3.10</code><br><img src="/%5Bobject%20Object%5D/2026/03/15/Conquer-pyenv-install-issue-ssl-missingundefined/fixed.png" alt="install succeed"></p>
-<h2 id="Another-ssl"><a href="#Another-ssl" class="headerlink" title="Another ssl"></a>Another ssl</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get <span class="built_in">local</span> issuer certifi</span><br><span class="line">cate (_ssl.c:1010)</span><br></pre></td></tr></table></figure>
-
-<p>try <code>pip install pip-system-certs</code></p>
-]]></content>
-      <tags>
-        <tag>WSL, Issue</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>DOSBoxNote</title>
-    <url>/%5Bobject%20Object%5D/2022/12/27/DOSBoxNoteundefined/</url>
+    <url>/%5Bobject%20Object%5D/2022/12/26/DOSBoxNoteundefined/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Construction"><a href="#Construction" class="headerlink" title="Construction"></a>Construction</h2><p><a href="https://youareaaron0.lanzoub.com/iVj4t00h3g7e">DOSBox software download link</a></p>
 <p><a href="https://lifesea.org/">application in DOSBox download link</a></p>
 <ol>
@@ -207,8 +188,27 @@
       </tags>
   </entry>
   <entry>
+    <title>Conquer pyenv install issue _ssl lib missing</title>
+    <url>/%5Bobject%20Object%5D/2026/03/14/Conquer-pyenv-install-issue-ssl-missingundefined/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Issue-occur"><a href="#Issue-occur" class="headerlink" title="Issue occur"></a>Issue occur</h2><p>wsl<br><img src="/%5Bobject%20Object%5D/2026/03/14/Conquer-pyenv-install-issue-ssl-missingundefined/error.png" alt="error"></p>
+<p>loop up pyenv wiki:<a href="https://github.com/pyenv/pyenv/wiki/Common-build-problems#error-the-python-ssl-extension-was-not-compiled-missing-the-openssl-lib">ERROR: The Python ssl extension was not compiled. Missing the OpenSSL lib?</a></p>
+<h2 id="Installing-OpenSSL"><a href="#Installing-OpenSSL" class="headerlink" title="Installing OpenSSL"></a>Installing OpenSSL</h2><p><a href="https://help.dreamhost.com/hc/en-us/articles/360001435926-Installing-OpenSSL-locally-under-your-username">Installing OpenSSL locally under your username</a><br>try <code>pyenv install 3.10</code> again</p>
+<p>failure!</p>
+<h3 id="Clear-appended-path-from-windows-maybe-the-path-ambitious"><a href="#Clear-appended-path-from-windows-maybe-the-path-ambitious" class="headerlink" title="Clear appended path from windows:maybe the path ambitious:"></a>Clear appended path from windows:maybe the path ambitious:</h3><p><a href="https://stackoverflow.com/questions/51336147/how-to-remove-the-win10s-path-from-wsl">How to remove the Win10’s PATH from WSL</a></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># add this two line below to /etc/wsl.conf</span></span><br><span class="line">[interop]</span><br><span class="line">appendWindowsPath = <span class="literal">false</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># in cmd, to restart wsl and apply that config</span></span><br><span class="line">wsl.exe --shutdown</span><br></pre></td></tr></table></figure>
+
+<p>try <code>pyenv install 3.10</code><br><img src="/%5Bobject%20Object%5D/2026/03/14/Conquer-pyenv-install-issue-ssl-missingundefined/fixed.png" alt="install succeed"></p>
+<h2 id="Another-ssl"><a href="#Another-ssl" class="headerlink" title="Another ssl"></a>Another ssl</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get <span class="built_in">local</span> issuer certifi</span><br><span class="line">cate (_ssl.c:1010)</span><br></pre></td></tr></table></figure>
+
+<p>try <code>pip install pip-system-certs</code></p>
+]]></content>
+      <tags>
+        <tag>WSL, Issue</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown note</title>
-    <url>/%5Bobject%20Object%5D/2021/11/13/Markdownundefined/</url>
+    <url>/%5Bobject%20Object%5D/2021/11/12/Markdownundefined/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="User-snippets’-command"><a href="#User-snippets’-command" class="headerlink" title="User snippets’ command"></a>User snippets’ command</h2><p><a href="https://chinese.freecodecamp.org/news/definitive-guide-to-snippets-visual-studio-code/">VS Code 代码片段</a></p>
 ]]></content>
       <tags>
@@ -557,7 +557,7 @@
   </entry>
   <entry>
     <title>Resolved iostream not found with clangd</title>
-    <url>/%5Bobject%20Object%5D/2026/03/16/Resolved-iostream-not-found-with-clangdundefined/</url>
+    <url>/%5Bobject%20Object%5D/2026/03/15/Resolved-iostream-not-found-with-clangdundefined/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Think-about-it"><a href="#Think-about-it" class="headerlink" title="Think about it"></a>Think about it</h2><p>Couldn’t found means, the c++ lib didn’t in user path or in clangd reachable path.</p>
 <h3 id="Try-1-add-c-path-to-system"><a href="#Try-1-add-c-path-to-system" class="headerlink" title="Try 1 add c++ path to system"></a>Try 1 add c++ path to system</h3><p><code>export CPLUS_INCLUDE_PATH=&quot;/usr/include/x86_64-linux-gnu/c++/11&quot;</code>, if didn’t have that library, then use these command below</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install libstdc++-&lt;specific version you want&gt;-dev</span><br></pre></td></tr></table></figure>
@@ -638,7 +638,7 @@
   </entry>
   <entry>
     <title>Unity Note</title>
-    <url>/%5Bobject%20Object%5D/2022/11/02/UnityNoteundefined/</url>
+    <url>/%5Bobject%20Object%5D/2022/11/01/UnityNoteundefined/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><h3 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h3><p>研究Unity Awake Start函数运行周期</p>
 <p>C#怎么像Lua那样定义全局变量</p>
 <figure class="highlight lua"><table><tr><td class="code"><pre><span class="line">sth.lua\\</span><br><span class="line"><span class="keyword">local</span> GF = <span class="built_in">require</span>(<span class="string">&quot;Global/Function&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">--- other file</span></span><br><span class="line">GF:sthFunction()  √</span><br></pre></td></tr></table></figure>
@@ -790,7 +790,7 @@
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>/%5Bobject%20Object%5D/2021/10/10/hello-worldundefined/</url>
+    <url>/%5Bobject%20Object%5D/2021/10/09/hello-worldundefined/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
@@ -804,6 +804,7 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>this the simplest step</p>
 ]]></content>
   </entry>
 </search>
