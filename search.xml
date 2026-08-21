@@ -216,6 +216,26 @@
       </tags>
   </entry>
   <entry>
+    <title>Resolved iostream not found with clangd</title>
+    <url>/%5Bobject%20Object%5D/2026/03/15/Resolved-iostream-not-found-with-clangdundefined/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Think-about-it"><a href="#Think-about-it" class="headerlink" title="Think about it"></a>Think about it</h2><p>Couldn’t found means, the c++ lib didn’t in user path or in clangd reachable path.</p>
+<h3 id="Try-1-add-c-path-to-system"><a href="#Try-1-add-c-path-to-system" class="headerlink" title="Try 1 add c++ path to system"></a>Try 1 add c++ path to system</h3><p><code>export CPLUS_INCLUDE_PATH=&quot;/usr/include/x86_64-linux-gnu/c++/11&quot;</code>, if didn’t have that library, then use these command below</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install libstdc++-&lt;specific version you want&gt;-dev</span><br></pre></td></tr></table></figure>
+
+<p>Obviously, it didn’t work</p>
+<h3 id="Try-2-add-clang-configuration"><a href="#Try-2-add-clang-configuration" class="headerlink" title="Try 2 add clang configuration"></a>Try 2 add clang configuration</h3><p>Create a <code>.clangd</code> file in project directory, and then add</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">CompileFlags:</span><br><span class="line"># -isystem: Used to point to system headers (like iostream issue). Using -isystem tells the compiler to treat the directory as a system include, which often suppresses unnecessary warnings from those files.</span><br><span class="line">  Add: [</span><br><span class="line">    &quot;-isystem/usr/include/x86_64-linux-gnu/c++/11&quot;</span><br><span class="line">  ]</span><br></pre></td></tr></table></figure>
+
+<p>Enjoy c++ coding~</p>
+]]></content>
+      <categories>
+        <category>Issues Solved</category>
+      </categories>
+      <tags>
+        <tag>C++, Envirenment</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Neovim note</title>
     <url>/%5Bobject%20Object%5D/2023/05/02/Neovimundefined/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Tutorials"><a href="#Tutorials" class="headerlink" title="Tutorials"></a>Tutorials</h2><ul>
@@ -553,26 +573,6 @@
         <tag>Note</tag>
         <tag>Neovim</tag>
         <tag>Tutorial</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Resolved iostream not found with clangd</title>
-    <url>/%5Bobject%20Object%5D/2026/03/15/Resolved-iostream-not-found-with-clangdundefined/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Think-about-it"><a href="#Think-about-it" class="headerlink" title="Think about it"></a>Think about it</h2><p>Couldn’t found means, the c++ lib didn’t in user path or in clangd reachable path.</p>
-<h3 id="Try-1-add-c-path-to-system"><a href="#Try-1-add-c-path-to-system" class="headerlink" title="Try 1 add c++ path to system"></a>Try 1 add c++ path to system</h3><p><code>export CPLUS_INCLUDE_PATH=&quot;/usr/include/x86_64-linux-gnu/c++/11&quot;</code>, if didn’t have that library, then use these command below</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo apt update</span><br><span class="line">sudo apt install libstdc++-&lt;specific version you want&gt;-dev</span><br></pre></td></tr></table></figure>
-
-<p>Obviously, it didn’t work</p>
-<h3 id="Try-2-add-clang-configuration"><a href="#Try-2-add-clang-configuration" class="headerlink" title="Try 2 add clang configuration"></a>Try 2 add clang configuration</h3><p>Create a <code>.clangd</code> file in project directory, and then add</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">CompileFlags:</span><br><span class="line"># -isystem: Used to point to system headers (like iostream issue). Using -isystem tells the compiler to treat the directory as a system include, which often suppresses unnecessary warnings from those files.</span><br><span class="line">  Add: [</span><br><span class="line">    &quot;-isystem/usr/include/x86_64-linux-gnu/c++/11&quot;</span><br><span class="line">  ]</span><br></pre></td></tr></table></figure>
-
-<p>Enjoy c++ coding~</p>
-]]></content>
-      <categories>
-        <category>Issues Solved</category>
-      </categories>
-      <tags>
-        <tag>C++, Envirenment</tag>
       </tags>
   </entry>
   <entry>
